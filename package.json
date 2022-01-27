@@ -1,14 +1,14 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "main": ".el/main/index.js",
+  "main": ".electron/main/index.js",
   "scripts": {
-    "start": "PORT=3902 el start --engine=umi",
-    "build": "el build --engine=umi"
+    "start": "PORT=3902 umi dev",
+    "build": "umi build"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/electron": "^1.6.10",
-    "electron-lab": "0.2.0-11"
+    "umi": "*",
+    "@umijs/plugin-electron": "*"
   }
 }

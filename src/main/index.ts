@@ -7,3 +7,5 @@ app.on('ready', () => {
   mainWindow.loadURL(entry);
   mainWindow.webContents.openDevTools();
 });
+
+console.log('111');

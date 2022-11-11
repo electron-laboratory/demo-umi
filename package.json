@@ -9,6 +9,6 @@
   "dependencies": {},
   "devDependencies": {
     "umi": "*",
-    "@umijs/plugin-electron": "*"
+    "@umijs/plugin-electron": "0.1.0-11"
   }
 }
